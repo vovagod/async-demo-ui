@@ -1,0 +1,46 @@
+{
+  "name": "ui",
+  "proxy": "http://127.0.0.1:5000/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "node-sass": "^6.0.0",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^4.0.1",
+    "react-virtualized": "^9.21.2",
+    "recharts": "^2.0.0-beta.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Vladimir Godovalov",
+  "license": "ISC",
+  "description": ""
+}

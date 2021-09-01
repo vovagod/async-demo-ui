@@ -1,0 +1,158 @@
+// Set css default variables
+:root{
+    --main-bg-color: white;
+    --blocks-bg-color: white;
+    --navbar-bg-color: #2c5697;
+    --main-text-color: #212529;
+    --table-text-color: #212529;
+    --col-text-color: #212529;
+    --col-border-color: #212529;
+    --alert-bg-color: white;
+    --alert-border-color: white;
+    --alert-warning-show: #FF6347; // was #ffc30f
+    --border-in-border: black;
+    --border-in-text: grey;
+    --table-digit-color: black;  
+    --table-flux-text: lightgrey; 
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import './web/stylesheet.css';
+
+.App{
+  background: var(--main-bg-color); 
+  font-family:'ALS Wagon Narrow';
+}
+
+.blocks {
+    background-color: var(--blocks-bg-color); 
+    border-radius: 10px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    padding-bottom:10px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 40px;
+    background: var(--navbar-bg-color); 
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 43%;
+  margin-left: -100px !important;  /* 50% of your logo width */
+  display: block;
+  font-weight: 500;
+}
+
+.container-block {
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: var(--main-text-color);
+}
+
+.table.table-bordered{
+    color: var(--table-text-color);
+}
+
+.col{
+    color: var(--col-text-color); 
+    border-color: var(--col-border-color);
+}
+
+.alert{
+    background-color:  var(--alert-bg-color);
+    border-color: var(--alert-border-color);
+}
+
+.heat-list.list-group{
+    color: #212529;
+}
+
+.fade.alert.alert-warning.show{
+    background-color:  var(--alert-warning-show);
+}
+
+.table th, .table td {
+  padding: 0.25rem;
+}
+
+#switch-one.custom-control-input:not(:checked) ~ .custom-control-label::before{
+    background-color: #1c222d; 
+}
+
+#switch-one.custom-control-input:checked~.custom-control-label::before{
+    background-color: #2c5697;
+}
+
+/* for md */
+// https://stackoverflow.com/questions/55593229/increasing-the-size-of-a-bootstrap-checkbox
+.custom-switch.custom-switch-md{
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.custom-switch.custom-switch-md .custom-control-label {
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 22px;
+}
+
+.custom-switch.custom-switch-md .custom-control-label::before {
+    height: 1.5rem;
+    width: calc(2rem + 0.75rem);
+    border-radius: 3rem;
+}
+
+.custom-switch.custom-switch-md .custom-control-label::after {
+    width: calc(1.5rem - 4px);
+    height: calc(1.5rem - 4px);
+    border-radius: calc(2rem - (1.5rem / 2));
+}
+
+.custom-switch.custom-switch-md .custom-control-input:checked ~ .custom-control-label::after {
+    transform: translateX(calc(1.5rem - 0.25rem));
+}
+
+.btn-link{
+    color: #212529;
+}
+
+.btn-light {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-item.active {
+    background-color: transparent;
+}
+
+.modal-dialog {
+    max-width: 1000px;
+}
+
+.menu-icon-overall {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-icon {
+    display: block;
+    width: 4px;
+    height: 20px;
+    background-color: #fff;
+    margin: auto 2px;
+}
+
+.but-menu {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.but-menu:focus {
+    outline: transparent;
+}

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'ALS Wagon Black Condensed';
+    src: url('./als_wagon_black_condensed.woff2') format('woff2'),
+        url('./als_wagon_black_condensed.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Medium Condensed';
+    src: url('./als_wagon_medium_condensed.woff2') format('woff2'),
+        url('./als_wagon_medium_condensed.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Black Expanded';
+    src: url('./als_wagon_black_expanded.woff2') format('woff2'),
+        url('./als_wagon_black_expanded.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon';
+    src: url('./als_wagon_regular.woff2') format('woff2'),
+        url('./als_wagon_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon';
+    src: url('./als_wagon_medium.woff2') format('woff2'),
+        url('./als_wagon_medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon';
+    src: url('./als_wagon_bold.woff2') format('woff2'),
+        url('./als_wagon_bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Bold Expanded';
+    src: url('./als_wagon_bold_expanded.woff2') format('woff2'),
+        url('./als_wagon_bold_expanded.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Expanded';
+    src: url('./als_wagon_regular_expanded.woff2') format('woff2'),
+        url('./als_wagon_regular_expanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Black Narrow';
+    src: url('./als_wagon_black_narrow.woff2') format('woff2'),
+        url('./als_wagon_black_narrow.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Condensed';
+    src: url('./als_wagon_regular_condensed.woff2') format('woff2'),
+        url('./als_wagon_regular_condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon';
+    src: url('./als_wagon_black.woff2') format('woff2'),
+        url('./als_wagon_black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Bold Narrow';
+    src: url('./als_wagon_bold_narrow.woff2') format('woff2'),
+        url('./als_wagon_bold_narrow.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Narrow';
+    src: url('./als_wagon_regular_narrow.woff2') format('woff2'),
+        url('./als_wagon_regular_narrow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Medium Narrow';
+    src: url('./als_wagon_medium_narrow.woff2') format('woff2'),
+        url('./als_wagon_medium_narrow.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Bold Condensed';
+    src: url('./als_wagon_bold_condensed.woff2') format('woff2'),
+        url('./als_wagon_bold_condensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Wagon Medium Expanded';
+    src: url('./als_wagon_medium_expanded.woff2') format('woff2'),
+        url('./als_wagon_medium_expanded.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
